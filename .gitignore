@@ -1,3 +1,8 @@
+# Ignore Source Files
+windows_main.py
+linux_main.py
+mac_main.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
