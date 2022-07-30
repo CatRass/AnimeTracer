@@ -1,4 +1,5 @@
 
+
 # AnimeTracer [![pypresence](https://img.shields.io/badge/using-pypresence-1f1f24.svg?style=for-the-badge&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence) [![pypresence](https://img.shields.io/badge/using-MalApi-1f1f24.svg?style=for-the-badge&logo=github&logoWidth=20)](https://github.com/darenliang/mal-api) [![pypresence](https://img.shields.io/badge/using-AnilistPython-1f1f24.svg?style=for-the-badge&logo=github&logoWidth=20)](https://github.com/ReZeroE/AnilistPython)
 AnimeTracer is a desktop application made in Python to track your progress in anime shows and movies, stored in lists.
 AnimeTracer can be used with and without an internet connection, provided the shows you want to edit are in your lists before disconnecting from the internet.
@@ -49,7 +50,7 @@ There are a few issues with the Linux Python Source code, being:
 - Loading cursor implemented through lines ```main.config(cursor="wait")``` returns an error
 - Discord Rich Presence does not work despite Discord running
 
-However the Linux Release has the inexplicable benefit of not having any issues with the episodes box in the show editor.
+However the Linux Release has the inexplicable benefit of not having any issues with the episodes box in the show editor. Note that I test Linux builds on Arch, so it may not work for your distribution of choice.
 ### Dependencies
 If you are planning on using the source `.py` file, or compile it yourself, you will need to install some external libraries. they are all available on PyPi, and can be installed through pip.
 - Tkinter - ```pip install tk```
